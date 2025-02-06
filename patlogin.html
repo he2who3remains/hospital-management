@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient login page</title>
+    <style>
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      
+      background-color:  #04AA6D;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }  
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    form { 
+        margin-top: 40px;
+        border: 3px solid #f1f1f1; 
+       width: fit-content;
+        margin-inline: 250px;
+        border-style: inset;
+        height: 600px;
+        border-radius: 20px;
+        width: 800px;
+        margin-left: 400px;
+        
+    }
+    button:hover { 
+        opacity: 0.7; 
+        } 
+        .regbtn { 
+            border-radius: 20px;
+            background-color: green;
+        width: 100px; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+        } 
+    .dd{
+      
+      width: auto;
+      padding: 40px; 
+      background-color: rgba(52, 241, 52, 0.555);
+
+        height: 520px;
+        border-radius: 20px;
+    }
+    .a{
+        
+        margin-top: 20px;
+         margin-left: 60px;
+        padding: 12px 20px; 
+       
+        border: 2px solid green; 
+        margin-block: 18px;
+        border-radius: 20px;
+        width:400px;
+        
+    }
+    .q{
+        margin-top: 100px;
+       font-size: 30px;
+        text-align: left;
+        
+        
+    }
+    p{
+      text-align: center;
+      font-size: 30px;
+      color: blue;
+    }
+   
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="home.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>     
+    </ul>
+        <form action="">
+            <div class="dd"> 
+               <img src="hop2.jpg" width="80px" alt="hospital image" style="margin-left: 320px;">
+                <p><u> Patient Login</u> </p> <br>
+                <table cellpadding="10px">
+                <tr>
+                  <td> <label class="q">Email:</label></td>
+                  <td> <input type="email" required placeholder="enter email" class="a"> 
+                </td>
+            </tr>
+                <tr> 
+                    <td><label class="q"> Password:</label></td>
+                    <td><input type="password" required placeholder="enter password" class="a"> </td></tr>
+                    
+                        </table><br>
+              <center><button type="submit"class="regbtn" name="button">Book </button>  </center>
+            </div> 
+
+        </form>
+    
+</body>
+</html>
+
+    

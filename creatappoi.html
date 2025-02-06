@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Appointment</title>
+</head>
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:  #04AA6D;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }  
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    form { 
+        margin-top: 40px;
+        border: 3px solid #f1f1f1; 
+       width: fit-content;
+        margin-inline: 250px;
+        border-style: inset;
+        height: 600px;
+        border-radius: 20px;
+        width: 800px;
+        margin-left: 400px;
+        
+    }
+    button:hover { 
+        opacity: 0.7; 
+        } 
+        .regbtn { 
+            border-radius: 20px;
+            background-color: green;
+        width: 100px; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+        
+        } 
+    .dd{
+      
+      width: auto;
+      padding: 40px; 
+        background-color:rgb(120, 218, 209);
+        height: 520px;
+        border-radius: 20px;
+    }
+    .a{
+        
+        margin-top: 20px;
+         
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+        border-radius: 20px;
+        width:400px;
+        
+    }
+    .q{
+        margin-top: 100px;
+       font-size: 30px;
+        text-align: left;
+        
+        
+    }
+    p{
+      text-align: center;
+      font-size: 30px;
+      color: blue;
+    }
+   
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="home.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>     
+    </ul>
+        <form action="">
+            <div class="dd"> 
+                <p>Create an Appointment</p>
+                <table cellpadding="10px">
+                <tr>
+                  <td> <label class="q">Doctor:</label></td>
+                  <td> <select name="doctor" class="a">
+                    <option value="Ganesh">Ganesh</option>
+                    <option value="Kishan">Kishan</option>
+                    <option value="Rajesh">Rajesh</option>
+                </select></td>
+            </tr>
+                <tr> 
+                    <td><label class="q"> Consultancy Fees:</label></td>
+                    <td><input type="number" value="500" class="a"> </td></tr>
+                    <tr> 
+                        <td><label class="q">Date :</label></td>
+                        <td><input type="date" placeholder="schedule your appointment" required class="a" ></td>
+                    </tr>
+                    <tr> 
+                        <td><label class="q"> Time :</label></td>
+                        <td><input type="time" placeholder="schedule your appointment" required class="a" ></td>
+                    </tr>
+                        </table><br>
+              <center><button type="submit"class="regbtn" name="button">Book </button>  </center>
+            </div> 
+
+        </form>
+    
+</body>
+</html>

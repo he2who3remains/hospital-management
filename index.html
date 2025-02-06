@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index page</title>
+    <style>
+        body{
+            background-color: rgba(52, 241, 52, 0.555);
+        }
+        form { 
+        border: 3px solid #f1f1f1; 
+       width: fit-content;
+        margin-inline: 250px;
+        border-style: inset;
+        height: 600px;
+        border-radius: 20px;
+        
+    }
+        a:link
+        {
+        text-decoration: none;                     
+        }
+        input[type=text], input[type=password], input[type=email], input[type=number] { 
+            width: auto; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+        border-radius: 20px;
+        width:500px;
+        
+        }
+        button:hover { 
+        opacity: 0.7; 
+        } 
+        .regbtn { 
+            border-radius: 20px;
+            background-color: green;
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+        } 
+        .container { 
+            text-align: center;
+        padding: 40px; 
+        background-color:rgb(107, 187, 180);
+        height: 520px;
+        border-radius: 20px;
+         } 
+         ul
+         {
+         list-style-type:none;
+          margin: 0;
+          padding: 0;
+         overflow:hiddden;
+         background-color: #333;
+           
+         }
+         li
+         {
+         float:left;
+         }
+       li a{
+        background-color:rgb(10, 10, 10);
+          display:block;
+         padding: 8px 16px;
+          text-align:center;
+         text-decoration:none;
+           color:white;
+       }
+       li a:hover { 
+        background-color: #555;
+        
+        } 
+        
+
+    </style>
+</head>
+<body text="darkblue">
+    
+    <ul>
+        <li style="font-size: 20px;"><img src="ad.jpg"  alt="image" vspace="5px" height="25" width="25">&nbsp; <sup>Global Hospital </sup> </li>
+     <li style="float:right"><a href="contact.html">Contact</a></li>
+     <li style="float:right"><a href="home.html">About Us</a></li>
+     <li style="float:right"><a href="index.html">Home</a></li>
+</ul> 
+<br><br><hr><br><br>
+    
+    <form >
+        <div class="container"> 
+            <h1> <u> Patient Registration</u> </h1>
+            <input type="text" placeholder="First name"  required> 
+            <input type="text" placeholder="Last name"  required><br>
+            <input type="email" placeholder="Enter E-mail"  required> 
+            <input type="number" placeholder="Enter phone number"  required><br>
+            <input type="password" placeholder="Enter Password" name="password"  required>
+            <input type="password" placeholder="confirm Password" name="password" required><br>
+            <input type="radio" name="gender" value="male" >male<br>
+            <input type="radio" name="gender" value="femalemale" >female <br>
+             
+           <a href="#"> Already have an account? </a> &nbsp;&nbsp;&nbsp;
+           <button type="submit"class="regbtn" ><a href="appoint.html"> register</a></button>  
+        </div> 
+    </form>   
+</body>
+</html>
